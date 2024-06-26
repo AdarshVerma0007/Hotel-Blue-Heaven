@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel and Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home" class="alpha">Home</a></li>
+              <li class="dropdown"><a href="javascript:void(0)" class="dropbtn" >Rooms</a>
+    <div class="dropdown-content">
+      <a href="#4" class="alpha">AC-Suite</a>
+      <a href="#4" class="alpha">Super Deluxe</a>
+    </div>
+              </li>
+                <li><a href="#restaurant" class="alpha">Restaurant</a></li>
+                <li><a href="#contact" class="alpha">Contact</a></li>
+                <li class="dropdown"><a href="javascript:void(0)" class="dropbtn" >Explore Nearby</a>
+                <div class="dropdown-content">
+                    <a href="https://en.wikipedia.org/wiki/Sarnath" class="alpha">Sarnath</a>
+                    <a href="https://en.wikipedia.org/wiki/Kashi_Vishwanath_Temple" class="alpha">Vishwanath Temple</a>
+                    <a href="https://en.wikipedia.org/wiki/Dashashwamedh_Ghat" class="alpha">Dashaswamedh Ghat</a>
+                    <a href="https://en.wikipedia.org/wiki/Manikarnika_Ghat" class="alpha">Manikarnika Ghat</a>
+                    <a href="https://www.varanasi.org.in/namo-ghat-varanasi" class="alpha">Namo Ghat</a>
+                    <a href="https://en.wikipedia.org/wiki/Swarved_Mahamandir" class="alpha">Swarved Temple</a></div></li>
+                <li><button class="one">Book Here</button></li>
+            </ul>
+        </nav>
+    </header>
+   
+
+    <section id="home">
+        <h1>Welcome to Our Hotel Blue Heaven</h1>
+        <p><b>Experience the best hospitality and fine dining.</b></p>
+        <form >
+            <ul class="sub"><b>Check in</b><br>
+                <input type="date" id="indate" required><br>
+             <b>Check out</b> <br>
+             <input type="date" id="outdate" value="Check out" required><br>
+             <li class="dropdown"><a href="javascript:void(0)" class="dropbtn1"><b>No. of Guests</b></a>
+                <div class="dropdown-content" >
+                  <a href="#" class="alpha" >1</a>
+                  <a href="#" class="alpha">2</a>
+                  <a href="#" class="alpha">3</a>
+                  <a href="#" class="alpha">4</a></div></li>
+            <button class="two" type="submit" onclick="alert('Rooms are Availabile')">Check Availability</button></ul> 
+        </form>
+    </section>
+
+    <section id="about">
+        <h2>Welcome to our Hotel</h2>
+        <div class="raw">
+            <div class="column">Bestowing excellent hospitality to its every category of guests,Hotel Blue Heaven reflects the culture and ethos of its location. With the  fusion of contemporary decor in  interiors of the hotel, the hotel comes with numerous services which are way beyond expectations of its guest. The hotel welcomes and offers hospitality to guests coming from all around the world. We are focussed on delivering high quality,for an ultimate traveling experience.</div>
+            <div class="column">It is a luxury hotel with a stylish elegance - here contemporary style, new age amenities, and essential services combine to give travelers a harmonious experience. Our hotel has all the services that are needed, and all the essentials are in place. Innovation in services served at the hotel and benchmarked products soaked in the essence of its location forms the basis of our commitment to responsible luxury that creates the milestones of our hotel’s value proposition.</div>
+          </div>
+    </section>
+    <div class="row">   
+        <div class="row__posters">
+           <figure class="fig"> <img src="3.jpg" alt="" class="row__poster row__posterLarge" >
+            <figcaption class="cap1">Pool View  </figcaption></figure>
+            <figure class="fig"><img src="4.jpg" alt="" class="row__poster row__posterLarge"  >
+        <figcaption class="cap1">Property View </figcaption></figure>
+        <figure class="fig"><img src="5.jpg" alt="" class="row__poster row__posterLarge" >
+        <figcaption class="cap1">Terrace View</figcaption></figure>
+        <figure class="fig"><img src="6.jpg" alt=""  class="row__poster row__posterLarge">
+            <figcaption class="cap1">Le Bistro View </figcaption></figure>
+        
+           
+    </div>
+    </div>
+
+    <section id="rooms">
+        <h2>Our Rooms</h2>
+        <p>Choose from a variety of rooms to suit your needs.</p>
+        <div class="row">   
+            <div class="row__posters">
+               <figure class="fig" id="4"> <img src="7.jpg" alt="" class="row__poster row__posterLarge" >
+                <figcaption class="cap1">Standard Room With Balcony  </figcaption></figure>
+                <figure class="fig"><img src="8.jpg" alt="" class="row__poster row__posterLarge"  >
+            <figcaption class="cap1">Premium Room With Balcony </figcaption></figure>
+            <figure class="fig"><img src="9.jpg" alt="" class="row__poster row__posterLarge" >
+            <figcaption class="cap1">Premium Suite</figcaption></figure>
+            <figure class="fig"><img src="10.jpg" alt=""  class="row__poster row__posterLarge">
+                <figcaption class="cap1">Presidential Suite </figcaption></figure>
+            
+               
+        </div>
+        </div>
+    </section>
+
+    <section id="facilities">
+        <h2>Our Facilities</h2>
+        <div class="row">   
+            <div class="row__poster1">
+               <figure class="fig"> <img src="1.png" alt="" class="row__poster2" > <figcaption class="cap1">Parking</figcaption></figure>
+                <figure class="fig"> <img src="2.png" alt="" class="row__poster2" > <figcaption class="cap1">Free Wifi</figcaption></figure>
+                    <figure class="fig"> <img src="3.png" alt="" class="row__poster2 " > <figcaption class="cap1">Room Service</figcaption></figure>
+                        <figure class="fig"> <img src="4.png" alt="" class="row__poster2 " > <figcaption class="cap1">Air Condintioner</figcaption></figure>
+            </div><div class="row__poster3">
+                        <figure class="fig"> <img src="5.png" alt="" class="row__poster2 " > <figcaption class="cap1">Laundry Service</figcaption></figure>
+                        <figure class="fig"> <img src="6.png" alt="" class="row__poster2 " > <figcaption class="cap1">Marrige</figcaption></figure>
+                        <figure class="fig"> <img src="7.png" alt="" class="row__poster2 " > <figcaption class="cap1">Party and Function</figcaption></figure>
+                        <figure class="fig"> <img src="8.png" alt="" class="row__poster2 " > <figcaption class="cap1">Doc on Call</figcaption></figure>
+            </div></div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch for reservations or inquiries.</p>
+        <form class="frm1">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Hotel and Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>
